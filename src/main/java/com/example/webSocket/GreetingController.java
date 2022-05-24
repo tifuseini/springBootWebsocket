@@ -12,6 +12,5 @@ public class GreetingController {
     @SendTo("/topic/greetings")
     public Greeting greet(HelloMessage helloMessage){
         return new Greeting("Hello " + (HtmlUtils.htmlEscape(helloMessage.getName())));
-
     }
 }
