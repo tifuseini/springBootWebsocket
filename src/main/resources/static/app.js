@@ -12,6 +12,7 @@ function setConnected(connected) {
     $("#greetings").html("");
 }
 
+
 function connect() {
     var socket = new SockJS('/client-endpoint');
     stompClient = Stomp.over(socket);
