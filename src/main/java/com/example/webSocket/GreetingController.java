@@ -7,7 +7,7 @@ import org.springframework.web.util.HtmlUtils;
 public class GreetingController {
 
     public Greeting greet(HelloMessage helloMessage){
-        return new Greeting((HtmlUtils.htmlEscape(helloMessage.getName())));
+        return new Greeting("Hello "(HtmlUtils.htmlEscape(helloMessage.getName())));
 
     }
 }
