@@ -13,6 +13,7 @@ function setConnected(connected) {
 }
 
 
+
 function connect() {
     var socket = new SockJS('/client-endpoint');
     stompClient = Stomp.over(socket);
