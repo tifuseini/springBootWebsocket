@@ -1,2 +1,4 @@
-package com.example.webSocket;public class HelloMessage {
+package com.example.webSocket;
+
+public class HelloMessage {
 }
