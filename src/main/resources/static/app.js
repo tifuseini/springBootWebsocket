@@ -42,6 +42,7 @@ function showGreeting(message) {
     $("#greetings").append("<tr><td>" + message.message + "</td></tr>");
 }
 
+
 $(function () {
     $("form").on('submit', function (e) {
         e.preventDefault();
